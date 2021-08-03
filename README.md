@@ -7,8 +7,6 @@ A link shortner telegram bot
 ```
 Made with Python3
 
-Copyright permission under MIT License
-License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
 ```
 
 ---
@@ -61,7 +59,3 @@ python3 main.py
 
 ---
 
-## Credits
-
-- [Fayas Noushad](https://github.com/FayasNoushad)
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
