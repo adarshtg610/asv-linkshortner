@@ -9,7 +9,7 @@ I am an asv link shortner telegram bot.
 
 >> `I can short any type of link ....`
 
-Made by @asv_chat01_bot <3
+contact me @asv_chat01_bot <3
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
