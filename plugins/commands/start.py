@@ -1,20 +1,20 @@
-# Author: Fayas (https://github.com/FayasNoushad) (@FayasNoushad)
+
 
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 START_TEXT = """
-Hello {} 😌
-I am a link shortner telegram bot.
+Hello {} :D
+I am an asv link shortner telegram bot.
 
->> `I can short any type of link`
+>> `I can short any type of link ....`
 
-Made by @FayasNoushad
+Made by @asv_chat01_bot <3
 """
 
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton('⚙ Join asv bot Channel ⚙', url='https://telegram.me/asvbots')
         ]]
     )
 
