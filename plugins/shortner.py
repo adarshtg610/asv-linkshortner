@@ -1,5 +1,5 @@
 # Made with python3
-# (C) @FayasNoushad
+
 # Copyright permission under MIT License
 # All rights reserved by FayasNoushad
 # License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
@@ -17,7 +17,7 @@ GPLINKS_API = os.environ.get("GPLINKS_API", "")
 
 BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton(text='⚙ Join Updates Channel ⚙', url='https://telegram.me/FayasNoushad')
+        InlineKeyboardButton(text='⚙ Join asv bots Channel ⚙', url='https://t.me/asvbots')
         ]]
     )
 
@@ -42,7 +42,7 @@ async def inline_short(bot, update):
     shorten_urls = await short(link)
     answers = [
         InlineQueryResultArticle(
-            title="Short Links",
+            title="--Short Links--",
             description=update.query,
             input_message_content=InputTextMessageContent(
                 message_text=shorten_urls,
@@ -180,7 +180,7 @@ async def short(link):
     
     # Send the text
     try:
-        shorten_urls += "\n\nMade by @FayasNoushad"
+        shorten_urls += "\n\nMade by ASV"
         return shorten_urls
     except Exception as error:
         return error
