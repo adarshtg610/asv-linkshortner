@@ -6,7 +6,7 @@ A link shortner telegram bot
 
 ```
 Made with Python3
-(C) @FayasNoushad
+
 Copyright permission under MIT License
 License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
 ```
@@ -20,7 +20,7 @@ License -> https://github.com/FayasNoushad/URL-Shortner-Bot/blob/main/LICENSE
 <br/>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/FayasNoushad/URL-Shortner-Bot/tree/main">
+  <a href="https://heroku.com/deploy?template=https://github.com/adarshtg610/asv-linkshortner/tree/main">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
